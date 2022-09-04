@@ -1,6 +1,7 @@
 export type PreviewCarType = {
     name: string;
     photo: string;
+    path: string;
 };
 
 export type TeslaCarType = {
