@@ -1,7 +1,7 @@
 const teslaData = [
     {
-        name: 'Tesla Model S',
-        bgImages: ['./src/assets/Model-S-Exterior-Hero-Desktop-Global.jpg', './src/assets/Model-S-Performance-Hero-Desktop-LHD.jpg', './src/assets/tesla_s_big.png'],
+        name: 'Model S',
+        bgImages: ['./src/assets/Model-S-Performance-Hero-Desktop-LHD.jpg', './src/assets/Model-S-Exterior-Hero-Desktop-Global.jpg', './src/assets/tesla_s_big.png'],
         principalData: {
             range: 396,
             velocity: 1.99,
@@ -15,7 +15,7 @@ const teslaData = [
                 text: 'Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging.'
             },
             {
-                photo: 'https://tesla-cdn.thron.com/static/PIUCZZ_MS-Interior-Grid-2-Audio-Desktop_CLFX4X.mp4?xseo=',
+                photo: 'https://tesla-cdn.thron.com/static/PIUCZZ_MS-Interior-Grid-2-Audio-Desktop_CLFX4X.mp4?xseo',
                 title: 'Immersive Sound',
                 text: 'A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers immersive listening and studio-grade sound quality.'
             },
@@ -27,8 +27,8 @@ const teslaData = [
         ]
     },
     {
-        name: 'Tesla Model 3',
-        bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/b314365b-e41d-4682-b890-608bdbdfa49e/bvlatuR/std/2560x2204/Model-3-Range-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/a7d91e4d-ba1e-41f1-b996-36fb4c925f57/bvlatuR/std/2560x1600/Model-3-AWD-Hero-Desktop-LHD'],
+        name: 'Model 3',
+        bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD','https://tesla-cdn.thron.com/delivery/public/image/tesla/a7d91e4d-ba1e-41f1-b996-36fb4c925f57/bvlatuR/std/2560x1600/Model-3-AWD-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/b314365b-e41d-4682-b890-608bdbdfa49e/bvlatuR/std/2560x2204/Model-3-Range-Hero-Desktop-LHD'],
         principalData: {
             range: 358,
             velocity: 3.1,
@@ -54,7 +54,7 @@ const teslaData = [
         ]
     },
     {
-        name: 'Tesla Model X',
+        name: 'Model X',
         bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/10accb74-6710-4826-ba35-926846c140b5/bvlatuR/std/4096x2560/Model-X-Performance-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/60c191f4-fffa-4da0-b385-bdcea4ac36b3/bvlatuR/std/4096x2560/Model-X-Utility-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/1ec08222-1f8a-41fc-9c4d-93c129d8344c/bvlatuR/std/4096x2559/Model-X-Exterior-Hero-Desktop-LHD'],
         principalData: {
             range: 333,

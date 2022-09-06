@@ -14,7 +14,7 @@ function PreviewCar({ name, photo, path }: PreviewCarType) {
                     </span>
                     <span onClick={() => window.scrollTo(0, 0)} className="relative">Order Now</span>
                 </a>
-                <Link to={path}>
+                <Link onClick={() => window.scrollTo(0, 0)} to={path}>
                     <a className="relative inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-white bg-red-600 rounded-full hover:bg-red-700">
                         <span className="relative">See More</span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 ml-2 mt-0.5" fill="none" viewBox="0 0 24 24"
