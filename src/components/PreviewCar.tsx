@@ -1,9 +1,17 @@
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { PreviewCarType } from '../interfaces/interfaces&types';
 
 function PreviewCar({ name, photo, path }: PreviewCarType) {
     return (
-        <article className='relative w-screen h-screen bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center pt-6 overflow-hidden' style={{ backgroundImage: `url(${photo})` }}>
+        <motion.div initial={{ opacity: 0.6 }}
+            whileHover={{
+                scale: 1.03,
+                transition: { duration: 1 },
+                opacity: 1
+            }}
+            whileInView={{ opacity: 0.9 }}
+            className='relative w-screen h-screen bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center pt-6 overflow-hidden' style={{ backgroundImage: `url(${photo})` }}>
             <h1 className='text-4xl font-bold '>{name}</h1>
             <h3 className='font-light text-lg italic text-'>Plaid</h3>
             <section className='flex justify-center flex-col sm:flex-row sm:justify-center sm:items-center gap-10 sm:gap-20  bottom-16 absolute font-semibold text-2xl'>
@@ -25,7 +33,7 @@ function PreviewCar({ name, photo, path }: PreviewCarType) {
                 </Link>
             </section>
 
-        </article>
+        </motion.div >
     )
 }
 

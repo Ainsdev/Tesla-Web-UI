@@ -1,5 +1,4 @@
 import React from "react";
-import { useRef } from "react";
 import Header from "../components/header"
 import Message from "../components/Message"
 import PreviewCar from "../components/PreviewCar"
@@ -9,6 +8,8 @@ function Home() {
     const scrollToRefS = React.useRef<HTMLInputElement>(null);
     const scrollToRef3 = React.useRef<HTMLInputElement>(null);
     const scrollToRefX = React.useRef<HTMLInputElement>(null);
+   
+
     return (
         <div className="overflow-hidden relative snap-y snap-mandatory overflow-y-scroll">
             <main className="flex flex-col justify-start items-center bg-[url('./assets/interior-tesla-model-s-2022-105.jpg')] w-full h-screen bg-top sm:bg-top bg-cover overflow-hidden">
