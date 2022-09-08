@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 const Header = () => {
 
     return (
-        <header className="w-screen pt-3 sm:pt-10 flex justify-center items-center flex-col sm:text-lg">
-            <section className="w-32 sm:w-36">
-                <img src=".\src\assets\tesla_icon.png" alt="" />
+        <header className="w-screen pt-3 sm:pt-5 flex justify-center items-center flex-col sm:text-lg">
+            <section className="w-28 sm:w-32">
+                <img src="https://openexpoeurope.com/wp-content/uploads/2016/12/tesla-logo-red.png" alt="" />
             </section>
             <section className="flex pt-5 gap-8 font-bold ">
                 <Link to='/model-s'><a className="hover:text-red-500" ><h1>Model S</h1></a></Link>

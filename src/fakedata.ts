@@ -1,7 +1,7 @@
 const teslaData = [
     {
         name: 'Model S',
-        bgImages: ['./src/assets/Model-S-Performance-Hero-Desktop-LHD.jpg', './src/assets/Model-S-Exterior-Hero-Desktop-Global.jpg', './src/assets/tesla_s_big.png'],
+        bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/1981e29b-2ce8-4620-9c6a-fe1eaf005656/bvlatuR/std/3456x2160/Model-S-Exterior-Hero-Desktop-Global', 'http://www.motoreetto.it/wp-content/uploads/2014/09/model-s-photo-gallery-14.jpg?lang=es'],
         principalData: {
             range: 396,
             velocity: 1.99,
@@ -28,7 +28,7 @@ const teslaData = [
     },
     {
         name: 'Model 3',
-        bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD','https://tesla-cdn.thron.com/delivery/public/image/tesla/a7d91e4d-ba1e-41f1-b996-36fb4c925f57/bvlatuR/std/2560x1600/Model-3-AWD-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/b314365b-e41d-4682-b890-608bdbdfa49e/bvlatuR/std/2560x2204/Model-3-Range-Hero-Desktop-LHD'],
+        bgImages: ['https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/a7d91e4d-ba1e-41f1-b996-36fb4c925f57/bvlatuR/std/2560x1600/Model-3-AWD-Hero-Desktop-LHD', 'https://tesla-cdn.thron.com/delivery/public/image/tesla/b314365b-e41d-4682-b890-608bdbdfa49e/bvlatuR/std/2560x2204/Model-3-Range-Hero-Desktop-LHD'],
         principalData: {
             range: 358,
             velocity: 3.1,

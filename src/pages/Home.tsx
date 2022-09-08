@@ -8,7 +8,7 @@ function Home() {
     const scrollToRefS = React.useRef<HTMLInputElement>(null);
     const scrollToRef3 = React.useRef<HTMLInputElement>(null);
     const scrollToRefX = React.useRef<HTMLInputElement>(null);
-   
+
 
     return (
         <div className="overflow-hidden relative snap-y snap-mandatory overflow-y-scroll">
@@ -27,7 +27,7 @@ function Home() {
                 )} className="animate-bounce bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full mt-40 sm:m-24">See More</button>
             </main>
             <div ref={scrollToRefS}>
-                <PreviewCar path='model-s' name="Model S" photo="./src/assets/teslasbig.png" />
+                <PreviewCar path='model-s' name="Model S" photo="https://img.remediosdigitales.com/7e4365/1366_2000/1366_2000.jpeg" />
             </div>
             <div ref={scrollToRef3}>
                 <PreviewCar path='model-3' name="Model 3" photo="https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD" />
